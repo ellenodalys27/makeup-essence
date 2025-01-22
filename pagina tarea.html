@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquillajes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Fondo gris claro */
+            color: #fff;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product {
+            background: #333;
+            border: 1px solid #555;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product h2 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 1em;
+            color: #ccc;
+        }
+        .product span {
+            font-size: 1.5em;
+            color: #ff6b6b;
+            font-weight: bold;
+        }
+        .button {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            background-color: #ff6b6b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #e63946;
+        }
+
+        section.products.skin-care {
+            background-color: #e6e6e6; /* Fondo más claro */
+            border-radius: 15px; /* Bordes redondeados */
+            padding: 20px;
+        }
+        section.products.skin-care .product {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            color: #333;
+        }
+        section.products.skin-care .product p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maquillajes</h1>
+        <p>Ilumina tu belleza con nuestros productos exclusivos</p>
+    </header>
+
+    <section class="products">
+        <div class="product">
+            <img src="https://i.imgur.com/NDGPGEJ.jpeg" alt="Iluminador">
+            <h2>Iluminador Glow Effect</h2>
+            <p>Consigue un brillo natural y duradero.</p>
+            <span>$15.99</span>
+            <a href="#" class="button">Añadir al carrito</a>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/V9Cm9Zh.jpeg" alt="Blush">
+            <h2>Blush Rosé Touch</h2>
+            <p>Aporta un toque de color fresco a tus mejillas.</p>
+            <span>$12.99</span>
+            <a href="#" class="button">Añadir al carrito</a>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/hUdKU2Q.jpeg" alt="Corrector">
+            <h2>Corrector Perfect Cover</h2>
+            <p>Oculta imperfecciones con acabado natural.</p>
+            <span>$9.99</span>
+            <a href="#" class="button">Añadir al carrito</a>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/U0U1abp.jpeg" alt="Máscara">
+            <h2>Mascara Lash Lift</h2>
+            <p>Define y alarga tus pestañas al instante.</p>
+            <span>$14.99</span>
+            <a href="#" class="button">Añadir al carrito</a>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/yEXMkpA.jpeg" alt="Broncer">
+            <h2>Broncer Sun Kiss</h2>
+            <p>Logra un bronceado sutil y luminoso.</p>
+            <span>$13.99</span>
+            <a href="#" class="button">Añadir al carrito</a>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/0XvgIiM.jpeg" alt="Brillo">
+            <h2>Brillo Crystal Shine</h2>
+            <p>Labios radiantes con efecto hidratante.</p>
+            <span>$8.99</span>
+            <a href="#" class="button">Añadir al carrito</a>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/wIXR4eh.jpeg" alt="Fijador">
+            <h2>Fijador Long Lasting</h2>
+            <p>Fija tu maquillaje todo el día.</p>
+            <span>$10.99</span>
+            <a href="#" class="button">Añadir al carrito</a>
+        </div>
+    </section>
+
+    <section class="products skin-care">
+        <header>
+            <h2>Skin Care</h2>
+        </header>
+        <div class="product">
+            <img src="https://i.imgur.com/fydKH3X.jpeg" alt="Producto Skin Care 1">
+            <h2>Crema Hidratante Daily Glow</h2>
+            <p>Hidratación profunda para todo tipo de piel.</p>
+            <span>$19.99</span>
+            <a href="#" class="button">Añadir al carrito</a>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/sldDFwE.jpeg" alt="Producto Skin Care 2">
+            <h2>Limpiador Facial Soft Clean</h2>
+            <p>Limpieza suave que respeta tu piel.</p>
+            <span>$14.99</span>
+            <a href="#" class="button">Añadir al carrito</a>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/xBATc3h.jpeg" alt="Producto Skin Care 3">
+            <h2>Sérum Revitalizante Glow Serum</h2>
+            <p>Renueva e ilumina tu piel al instante.</p>
+            <span>$24.99</span>
+            <a href="#" class="button">Añadir al carrito</a>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/tByo2G6.jpeg" alt="Producto Skin Care 4">
+            <h2>Exfoliante Suave Smooth Scrub</h2>
+            <p>Elimina células muertas y suaviza tu piel.</p>
+            <span>$16.99</span>
+            <a href="#" class="button">Añadir al carrito</a>
+        </div>
+        <div class="product">
+            <img src="https://i.imgur.com/fs9rIdo.jpeg" alt="Producto Skin Care 5">
+            <h2>Tónico Refrescante Fresh Tone</h2>
+            <p>Equilibra y refresca tu piel.</p>
+            <span>$12.99</span>
+            <a href="#" class="button">Añadir al carrito</a>
+        </div>
+    </section>
+</body>
+</html>
